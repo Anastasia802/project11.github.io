@@ -4,8 +4,9 @@
   "description": "",
   "main": "./script.js",
   "scripts": {
-    "build": "webpack --mode production"
-    },
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch"
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Anastasia802/project11.github.io.git"
