@@ -41,6 +41,9 @@ export const initialCards = [
     link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/vladivostok.jpg'
   }
 ];
+import '../pages/index.css'
+
+
 import {Card} from './Card.js'
 import {CardList} from './CardList'
 import {BigPicPopup} from './BigPicPopup'
@@ -49,7 +52,6 @@ import {Popup} from './Popup'
 import {UserInfo} from './UserInfo'
 import {Append} from './functions'
 import {MestoApi} from './MestoAPI'
-import {initialCards} from './script.js'
 
 let url = "https://praktikum.tk";
 //let url = "https://95.216.175.5";
