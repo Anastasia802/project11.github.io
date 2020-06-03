@@ -1,0 +1,10 @@
+.popup_image_big{
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
