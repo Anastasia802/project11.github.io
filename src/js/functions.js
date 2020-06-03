@@ -1,4 +1,4 @@
-function CreateDOMElement(params){
+export function CreateDOMElement(params){
 	let elem = document.createElement(params.tag);
 	try{
 		elem.className = params.classes.join(" ");
@@ -46,7 +46,7 @@ function CreateDOMElement(params){
 	return elem;
 }
 
-function Append(container){
+export function Append(container){
 	for (let i = 1; i < arguments.length; i++) {
 		container.appendChild(arguments[i]);
 	}

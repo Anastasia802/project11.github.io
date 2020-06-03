@@ -1,4 +1,4 @@
-class CardList{
+export class CardList{
 	constructor(dom_element, initialCards, ncard, pp, api){
 		this.ncard = ncard;
 		this.container = dom_element;

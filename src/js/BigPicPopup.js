@@ -1,4 +1,7 @@
-class BigPicPopup{
+import {CreateDOMElement} from './functions'
+import {Append} from './functions'
+
+export class BigPicPopup{
 	constructor(){
 
 	}

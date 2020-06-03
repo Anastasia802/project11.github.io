@@ -1,4 +1,7 @@
-class UserInfo{
+import {CreateDOMElement} from './functions'
+import {Append} from './functions'
+
+export class UserInfo{
 	constructor(){
 
 	}

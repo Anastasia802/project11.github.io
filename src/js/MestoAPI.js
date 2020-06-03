@@ -1,4 +1,4 @@
-class MestoApi{
+export class MestoApi{
 	constructor(connection_data){
 		this.token = connection_data.token;
 		this.group = connection_data.group;

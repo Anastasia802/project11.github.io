@@ -1,0 +1,24 @@
+{
+  "name": "project11.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/js/script.js",
+  "scripts": {
+    "build": "webpack --mode production"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anastasia802/project11.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anastasia802/project11.github.io/issues"
+  },
+  "homepage": "https://github.com/Anastasia802/project11.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

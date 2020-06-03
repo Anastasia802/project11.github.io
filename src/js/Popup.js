@@ -1,6 +1,7 @@
+import {CreateDOMElement} from './functions'
+import {Append} from './functions'
 
-
-class Popup{
+export class Popup{
 	constructor(header_text, button_text, button_classes, inputs, popup_but, but_action, in_val){
 		this.header = header_text;
 		this.btn_text = button_text;

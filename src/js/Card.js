@@ -1,4 +1,7 @@
-class Card{
+import {Append} from './functions'
+import {CreateDOMElement} from './functions'
+
+export class Card{
 
 	constructor(name, photo, pp, id, likes, api){
 		this.name = name;

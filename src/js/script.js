@@ -1,5 +1,6 @@
 
-const initialCards = [
+
+export const initialCards = [
   {
     name: 'Архыз',
     link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg'
@@ -41,6 +42,15 @@ const initialCards = [
     link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/vladivostok.jpg'
   }
 ];
+import {Card} from './Card.js'
+import {CardList} from './CardList'
+import {BigPicPopup} from './BigPicPopup'
+import {FormValidator} from './FormValidator'
+import {Popup} from './Popup'
+import {UserInfo} from './UserInfo'
+import {Append} from './functions'
+import {MestoApi} from './MestoAPI'
+
 let url = "https://praktikum.tk";
 //let url = "https://95.216.175.5";
 window.onload = async function(){
