@@ -1,5 +1,4 @@
 
-
 export const initialCards = [
   {
     name: 'Архыз',
@@ -50,6 +49,7 @@ import {Popup} from './Popup'
 import {UserInfo} from './UserInfo'
 import {Append} from './functions'
 import {MestoApi} from './MestoAPI'
+import {initialCards} from './script.js'
 
 let url = "https://praktikum.tk";
 //let url = "https://95.216.175.5";

@@ -1,3 +1,4 @@
+
 export class CardList{
 	constructor(dom_element, initialCards, ncard, pp, api){
 		this.ncard = ncard;
