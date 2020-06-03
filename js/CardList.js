@@ -8,12 +8,9 @@ class CardList{
 	}
 
 	async cardAddingHandler(e){
-		//try{
 			const inputs = e.currentTarget.parentElement.getElementsByTagName("input");
-			//this.addCard(inputs[0].value, inputs[1].value);
 			let newcard = await this.api.create_card(inputs[0].value, inputs[1].value);
 			this.addCard(newcard.name, newcard.link, newcard._id, newcard.likes.length);
-		//}catch(e){console.log('Ошибка! '+e);}
 	}
 
 

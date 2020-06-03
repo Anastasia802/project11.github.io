@@ -9,10 +9,8 @@ class MestoApi{
 		}
 	}
 
-	/* Можно лучше: теперь параметр ui не нужен */
 	async getUser(ui){
 		const url = `${this.baseUrl}/${this.group}/users/me`;
-		/* Можно лучше: можно обойтись без оборачивание запроса в функцию  */
 		const request = async () => {
 			const response = await fetch(url, {headers: this.headers});
 			if (!response.ok) {
@@ -60,13 +58,7 @@ class MestoApi{
 		}
 		const res = await req.json();
 		return res;
-		/*.then(res=>res.json())
-		.then((result)=>{
-		 	card.like_button.className = "place-card__like-icon";
-			if(method=='PUT')card.like_button.className += "_liked";
-			card.likes_am = result.likes.length;
-			card.likes_amount.textContent = card.likes_am;
-		});*/
+		
 	}
 
 
@@ -80,10 +72,7 @@ class MestoApi{
 		if (!req.ok) {
 				throw new Error(req.status);
 		}
-		/*.then(res=>res.json())
-		.then((result)=>{
-			cl.addCard(result.name, result.link, result.id, result.likes.length);
-		});*/
+	
 		const res = await req.json();
 		return res;
 	}
