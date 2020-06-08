@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zuhijan/project11.git"
+    "url": "git+https://github.com/Anastasia802/project11.github.io.git"
   },
-  "author": "Egor Shkirya",
+  "author": "Anastasiya Shevchenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zuhijan/project11/issues"
+    "url": "https://github.com/Anastasia802/project11.github.io/issues"
   },
-  "homepage": "https://github.com/zuhijan/project11#readme",
+  "homepage": "https://github.com/Anastasia802/project11.github.io#readme",
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
@@ -28,7 +28,7 @@
     "css-loader": "^3.2.0",
     "cssnano": "^4.1.10",
     "file-loader": "^4.2.0",
-    "gh-pages": "~2.0.1",
+    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.8.0",
