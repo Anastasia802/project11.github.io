@@ -42,3 +42,4 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/windows,visualstudiocode
 node_modules
 dist
+DS_Store
