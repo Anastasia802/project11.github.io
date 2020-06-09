@@ -3,12 +3,13 @@
   height: 50px;
   border: 1px solid rgba(0, 0, 0, .2);
   margin-top: 48px;
-  background-color: black;
-  color: white;
+  color: rgba(0, 0, 0, .2);
   font-size: 36px;
+  cursor: default;
 }
 
-.popup__button:disabled{
-  background-color: white;
-  color: rgba(0, 0, 0, .2);
+.popup__button_active {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
 }

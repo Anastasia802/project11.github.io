@@ -347,22 +347,3 @@ template {
 [hidden] {
   display: none;
 }
-
-.login_err, .about_err{
-  color: red;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  margin-top:4px;
-  margin-bottom: 24px;
-}
-
-.popup__input_edit{
-  margin-bottom:0px !important;
-}
-
-.btn_val{
-  border-radius: 2px;
-}
